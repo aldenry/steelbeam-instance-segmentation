@@ -93,11 +93,10 @@ Target performance for this assignment:
 ```
 ultralytics
 streamlit
-opencv-python
+opencv-python-headless
 pillow
 numpy
 torch
-torchvision
 ```
 
 ---
