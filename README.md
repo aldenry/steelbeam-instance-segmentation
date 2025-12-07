@@ -97,6 +97,7 @@ opencv-python
 pillow
 numpy
 torch
+torchvision
 ```
 
 ---
