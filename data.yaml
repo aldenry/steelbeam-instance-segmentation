@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['I-beam', 'L-beam', 'O-beam', 'O-pipe', 'T-beam', 'square-bar', 'square-pipe']
+
+roboflow:
+  workspace: robofun
+  project: steel-beam-instance-segmentation-dataset
+  version: 37
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/robofun/steel-beam-instance-segmentation-dataset/dataset/37
