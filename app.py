@@ -32,7 +32,7 @@ Upload gambar, lalu model akan menampilkan hasil segmentasi.
 
 @st.cache_resource
 def load_model():
-    model_path = "src/runs/segment/steelbeam-upgrade/weights/best.pt"
+    model_path = "weights/best.pt"
     if not os.path.exists(model_path):
         st.error(f"Model tidak ditemukan di: {model_path}")
         st.stop()
@@ -118,4 +118,5 @@ if uploaded_file is not None:
         st.subheader("Segmentation result")
         st.image(out_img, use_column_width=True)
 else:
+
     st.info("Silakan upload gambar untuk mulai melakukan segmentasi.")
